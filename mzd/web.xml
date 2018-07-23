@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<server-port>8080</server-port>
+	<mytomcat-list>
+		<mytomcat>
+			<name>LoginServlet</name>
+			<class>com.demo.LoginServlet</class>
+			<url>/login.do</url>
+		</mytomcat>
+		<mytomcat>
+			<name>LoginServlet2</name>
+			<class>com.demo.LoginServlet2</class>
+			<url>/login2.do</url>
+		</mytomcat>
+	</mytomcat-list>
+</web-app>
